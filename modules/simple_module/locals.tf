@@ -1,19 +1,19 @@
 locals {
   host_project_ids = {
     "od" : {
-      "dev" : "rdcr-sentinel-host-project-0",
-      "uat" : "qqeo-sentinel-host-project-0",
-      "prd" : "dnfp-sentinel-host-project-0",
+      "dev" : "protected-host-project-0",
+      "uat" : "protected-host-project-1",
+      "prd" : "protected-host-project-2",
     },
     "ot" : {
-      "dev" : "tige-sentinel-host-project-0",
-      "uat" : "cidg-sentinel-host-project-0",
-      "prd" : "yikb-sentinel-host-project-0",
+      "dev" : "unprotected-host-project-0",
+      "uat" : "unprotected-host-project-1",
+      "prd" : "unprotected-host-project-2",
     },
     "op" : {
-      "dev" : "ayek-sentinel-host-project-0",
-      "uat" : "vmyp-sentinel-host-project-0",
-      "prd" : "byxb-sentinel-host-project-0",
+      "dev" : "unprotected-host-project-3",
+      "uat" : "unprotected-host-project-4",
+      "prd" : "unprotected-host-project-5",
     },
   }
 }
